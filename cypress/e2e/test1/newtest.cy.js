@@ -1,4 +1,4 @@
-/// <types="Cypress"  />
+/// < reference types="Cypress"  />
 describe('Login' , () =>{
       it('Sing in', () =>{
       cy.visit ("https://dev.sandmilk.com/")
