@@ -19,12 +19,12 @@ cy.visit('https://next.privat24.ua/mobile?lang=en')
     .get('[data-qa-node="amount"]')
     .contains('1')
     .get('[data-qa-node="commission-currency"]')
-    .should('have.text',' UAH') 
+    .should('contains.text','UAH') 
     .get('[data-qa-node="commission"]')
     .eq(1)
     .should('have.text',"2")
-    .get('[data-qa-node="comission-currency"]')
-    .should('contain.text', 'UAH')
+    .get('[data-qa-node="commission-currency"]')
+    .should('contains.text', 'UAH')
     
     
 
