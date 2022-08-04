@@ -36,7 +36,7 @@ pipeline {
     
     post {
     always {
-      junit(testResults: 'builds/${currentBuild.number}/junitResult.xml', allowEmptyResults : true)
+      junit(testResults: 'builds/15/junitResult.xml', allowEmptyResults : true)
       archiveArtifacts(artifacts: 'cypress/videos/sample_spec.js.mp4', fingerprint: true)
     }
   }
