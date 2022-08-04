@@ -1,3 +1,3 @@
-require('cypress-downloadfile/lib/downloadFileCommand')
+//require('cypress-downloadfile/lib/downloadFileCommand')
 
-require('cy-verify-downloads').addCustomCommand();
+//require('cy-verify-downloads').addCustomCommand();
