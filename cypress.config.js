@@ -5,3 +5,5 @@ module.exports = {
     },
   },
 };
+
+require('cypress-downloadfile/lib/downloadFileCommand')
