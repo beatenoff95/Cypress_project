@@ -16,7 +16,7 @@ pipeline {
        
         stage('Unit Tests') {
             steps {
-                bat 'NO_COLOR=1 node_modules/.bin/cypress run || true'
+                bat 'node_modules/.bin/cypress run'
             }
         }
         
