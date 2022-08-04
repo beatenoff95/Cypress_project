@@ -13,24 +13,16 @@ pipeline {
                 bat 'npm i'
             }
         }
-        stage('Build') {
-            steps {
-                bat 'npm run build'
-            }
-        }
+       
         stage('Unit Tests') {
             steps {
-                bat 'npm run test'
+                bat 'npx cypress open'
             }
         }
-        stage('e2e Tests') {
+        
+        stage('Finish') {
             steps {
-                bat 'npm run cypress:ci'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+                echo 'Finish'
             }
         }
     }
