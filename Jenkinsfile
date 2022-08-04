@@ -16,7 +16,8 @@ pipeline {
        
         stage('Env Variables') {
             steps {
-                echo 'The build number is ${currentBuild.number}'               
+                echo 'current build number: ${currentBuild.number}'
+            echo 'previous build number: ${currentBuild.previousBuild.getNumber()}'             
             }
         }
         
