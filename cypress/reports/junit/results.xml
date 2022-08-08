@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.1170" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-08T13:14:40" tests="1" file="cypress\e2e\test1\Add\Remove elements.cy.js" time="6.1130" failures="0">
+    <testcase name="Add/Remove elements" time="4.4590" classname="Add/Remove elements">
+    </testcase>
+  </testsuite>
+</testsuites>
